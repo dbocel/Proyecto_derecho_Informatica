@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo_de_login.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 150vh;
+
+}
+
+.Registro-box{
+    width: 420px;
+    height: 620px;
+    background: url(../img/ima_loin.jpg) no-repeat center top;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 54px 32px;
+}
+
+.Registro-box .avatar{
+    width: 75px;
+    height: 75px;
+    border-radius: 10%;
+    border-radius: 50px;
+    background: #ffffff;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    position: absolute;
+    top: -50px;
+    left: 175px
+}
+.Registro-box h1{
+
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Registro-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.Registro-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Registro-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #464646;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.Registro-box input[type="text"],
+.Registro-box input[type="number"],
+.Registro-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
